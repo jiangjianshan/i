@@ -1,0 +1,3 @@
+# mspcrt
+
+If you use MSVC or MSVC-like toolset to build some open source libraries, you will find some posix headers or functions are missing in Universal C Runtime Library (Universal CRT or UCRT). There are several solution to fix it. ***mspcrt*** is one of solution. It is an implementation extension of ucrt library. Most of implementation are ported from [mingw-w64](https://github.com/mingw-w64/mingw-w64) and [gnulib](https://www.gnu.org/software/gnulib/). This library works with my another repository [msvc-pkg](https://github.com/jiangjianshan/msvc-pkg). To implement all missing functions or header is a huge job here. That is why ***mspcrt*** only implement those headers and functions that are frequently used here.
